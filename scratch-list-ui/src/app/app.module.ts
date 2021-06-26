@@ -40,12 +40,16 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MainNavComponent } from './main-nav/main-nav.component';
+import { TasklistComponent } from './tasks/tasklist/tasklist.component';
+import { TaskitemComponent } from './tasks/taskitem/taskitem.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    MainNavComponent
+    MainNavComponent,
+    TasklistComponent,
+    TaskitemComponent
   ],
   imports: [
     BrowserModule,
